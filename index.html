@@ -1,0 +1,92 @@
+<!--Website made for Tree Package Installer-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Package Installer--</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+    
+</head>
+<body>
+
+    
+    
+    <div class="nav">
+        <div class="logoContainer">
+            <img src="src/logo.png" alt="" class="logoImg" pagespeed_no_transform>
+            <h1 class="logoText">Cristian's Portofolio</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column left">
+
+            <img src="src/wallpaper.png" alt="" class="parallax" data-speed="-5"> 
+
+            <h1 class="title">Who am i?</h1>
+            
+            <h1 class="desc">Hi!<br> I am a self-taught developer from Romania.<br>Beside programming, I am a producer, a gamer and sometimes i make 3D NFT-s.<br><br> > I take orders for really cheap prices.<br>The price depends on what you wan't, but it's aroud 5$.<br><br> Want to contact me?<br>You have some links here:</h1>
+
+            <div class="btn_container">
+                <a href="https://github.com/cristianlmao/" class="btn">  <img style="width: 40px; height: 40px; margin-top: 5px; padding-left: 10px; padding-right: 10px;" src="src/github.png">GIT HUB</a>
+
+                <br>
+                <a href="https://www.instagram.com/cristian.codes/" class="btn"> <img style="width: 40px; height: 40px; margin-top: 5px; padding-left: 10px; padding-right: 10px;" src="src/instagram.png">INSTAGARM </a>
+
+                <br>
+                <a href="" class="btn"> <img style="width: 35px; height: 40px; margin-top: 5px; padding-left: 10px; padding-right: 10px;" src="src/discord.png"> cristian.1#3796 </a>
+                <br>
+                <a href="https://opensea.io/Sketch_3d" class="btn"> <img style="width: 40px; height: 40px; margin-top: 5px; padding-left: 10px; padding-right: 10px;" src="src/opensea.png"> OPENSEA (NFT-s) </a>
+                <br>
+                <a href="https://steamcommunity.com/id/cristiannnnnnnnnnnnnnnnn/" class="btn"> <img style="width: 40px; height: 40px; margin-top: 5px; padding-left: 10px; padding-right: 10px;" src="src/steam.png"> STEAM  </a>
+            </div>   
+            
+            
+        </div>
+        <div class="column right">
+
+            <h1 class="title">What can I do?</h1>
+            
+            <h1 class="desc">Well, almost anything I can think about.<br>I master the programming languages I know.<br><br><br>What programming languages I know?<br><br> - C++<br>
+                                                                                                                                                                        - Java<br>
+                                                                                                                                                                        - C#<br>
+                                                                                                                                                                        - HTML w/ CSS<br>
+                                                                                                                                                                        - PHP<br>
+                                                                                                                                                                        - Python<br>
+            
+</h1>
+
+        </div>
+
+        <script>
+            document.addEventListener("mousemove", parallax);
+
+            function parallax(e){
+                this.querySelectorAll('.parallax').forEach(element => {
+                    const speed = element.getAttribute('data-speed')
+
+                    const x = (window.innerWidth - e.pageX * speed) / 500
+                    const y = (window.innerWidth - e.pageY * speed) / 150
+
+                    element.style.transform = `translateX(${x - 500}px) translateY(${y}px)`
+                });
+            }
+        </script>
+
+        
+    </div>
+    
+
+</body>
+
+<script>
+    document.ready(function() {
+    $('.disclamer').hide();
+});            
+</script>
+
+</html>

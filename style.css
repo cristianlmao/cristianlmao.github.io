@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+}
+
+.nav{
+    height: 5vh;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 10px 0px;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
+    z-index: 100;
+}
+
+.logoContainer{
+    display: flex;
+    width: 700px;
+}
+.logoImg{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.logoText{
+    padding-top: 7px;
+    color: white;
+    font-family: arial;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+    height: 95vh;
+}
+
+.right{
+    background-color: rgb(39, 39, 39);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.8);
+}
+
+.parallax{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+
+    filter: blur(3px);
+}
+
+.title{
+    font-family: Pacifico;
+    padding-left: 10px;
+    font-size: 80px;
+    color: #2EB333
+}
+
+.desc{
+    font-family: Courier;
+    padding-left: 10px;
+    font-size: 25px;
+    color: white
+}
+
+
+.btn_container{
+    margin: 50px;
+    margin-bottom: 5px;
+}
+
+.btn{
+    display: block;
+    background-color: rgb(68, 68, 68);
+    
+    height: 50px;
+    font-family: arial;
+    font-size: 45;
+    text-align: center;
+
+
+    border: 5px solid rgb(68, 68, 68);
+
+    -webkit-box-shadow: 0px 0px 0px 5px #2EB333; 
+    box-shadow: 0px 0px 0px 5px #2EB333;
+
+    text-decoration: none;
+    color: white;
+    
+}
